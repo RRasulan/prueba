@@ -1,41 +1,43 @@
-body{
+body {
     padding: 0;
-    margin: 0;  
+    margin: 0;
     background-color: azure;
 }
 
 
-#navbarNav{
-    a{
+#navbarNav {
+    a {
         font-size: 30px;
     }
 }
+
 .headerImage {
-    background-image: url('../img/fondo.jpg')!important;
+    background-image: url('../img/fondo.jpg') !important;
     background-size: cover;
     background-position: top;
     width: 100%;
-    height: 400px!important; 
+    height: 400px !important;
 }
+
 .headerImage2 {
-    background-image: url('../img/fondo3.jpg')!important;
+    background-image: url('../img/fondo3.jpg') !important;
     background-size: cover;
     background-position: top;
     width: 100%;
-    height: 400px!important; 
+    height: 400px !important;
 }
 
 .sectionWithBackground {
     background-image: url('../img/1.jpg');
     background-size: contain;
     height: 500px;
-    width: 100%!important;
+    width: 100% !important;
     background-position: center;
     color: #fff;
     padding: 0;
     margin: 0;
     text-align: left;
-    
+
 }
 
 .sectionWithBackground h2 {
@@ -52,12 +54,13 @@ body{
     margin-bottom: 20px;
     color: #fff;
     padding: 10px 0 0 10px;
-    
+
 }
+
 .sectionWithBackground li {
-    
+
     text-align: left;
-    
+
 }
 
 .contenedor {
@@ -66,10 +69,11 @@ body{
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .contenedor .contenido {
     width: 55%;
     padding: 20px;
-    
+
 
 }
 
@@ -79,6 +83,7 @@ body{
 .contenedor .imagen {
     width: 45%;
 }
+
 .imagen img {
     width: 100%;
     height: auto;
@@ -93,10 +98,18 @@ body{
 
 /* Animación del botón */
 @keyframes animacionBoton {
-    0% { transform: scale(0); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .animacionBoton {
-    animation: animacionBoton 1s ease forwards; /* Ajusta la duración de la animación */
+    animation: animacionBoton 1s ease forwards;
+    /* Ajusta la duración de la animación */
 }
