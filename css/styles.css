@@ -28,9 +28,9 @@ body {
 }
 
 .sectionWithBackground {
-    background-image: url('../img/1.jpg');
-    background-size: contain;
-    height: 500px;
+    background-image: url('../img/plates/bg.gif');
+    background-size: cover;
+    min-height: 500px;
     width: 100% !important;
     background-position: center;
     color: #fff;
@@ -69,6 +69,24 @@ body {
     justify-content: space-between;
     margin-top: 10px;
 }
+
+.contenedor.message {
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor.message .contenido {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+@media screen and (min-width: 640px) {
+    .contenedor.message {
+        flex-direction: row;
+    }
+}
+
+
 
 .contenedor .contenido {
     width: 55%;
